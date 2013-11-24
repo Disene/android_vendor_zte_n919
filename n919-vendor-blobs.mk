@@ -1,0 +1,172 @@
+# Copyright (C) 2012 The CyanogenMod Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Prebuilt libraries that are needed to build open-source libraries
+
+PRODUCT_COPY_FILES += \
+    vendor/zte/n919/proprietary/system/bin/abtfilt:system/bin/abtfilt \
+    vendor/zte/n919/proprietary/system/bin/akmd8963:system/bin/akmd8963 \
+    vendor/zte/n919/proprietary/system/bin/bmgr:system/bin/bmgr \
+    vendor/zte/n919/proprietary/system/bin/bridgemgrd:system/bin/bridgemgrd \
+    vendor/zte/n919/proprietary/system/bin/diag_dci_client:system/bin/diag_dci_client \
+    vendor/zte/n919/proprietary/system/bin/diag_mdlog:system/bin/diag_mdlog \
+    vendor/zte/n919/proprietary/system/bin/diag_socket_log:system/bin/diag_socket_log \
+    vendor/zte/n919/proprietary/system/bin/diag_uart_log:system/bin/diag_uart_log \
+    vendor/zte/n919/proprietary/system/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
+    vendor/zte/n919/proprietary/system/bin/hciattach:system/bin/hciattach \
+    vendor/zte/n919/proprietary/system/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/zte/n919/proprietary/system/bin/loc_api_app:system/bin/loc_api_app \
+    vendor/zte/n919/proprietary/system/bin/mm-jpeg-enc-test-client:system/bin/mm-jpeg-enc-test-client \
+    vendor/zte/n919/proprietary/system/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/zte/n919/proprietary/system/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/zte/n919/proprietary/system/bin/mpdecision:system/bin/mpdecision \
+    vendor/zte/n919/proprietary/system/bin/netmgrd:system/bin/netmgrd \
+    vendor/zte/n919/proprietary/system/bin/port-bridge:system/bin/port-bridge \
+    vendor/zte/n919/proprietary/system/bin/pppd:system/bin/pppd \
+    vendor/zte/n919/proprietary/system/bin/qmiproxy:system/bin/qmiproxy \
+    vendor/zte/n919/proprietary/system/bin/qmuxd:system/bin/qmuxd \
+    vendor/zte/n919/proprietary/system/bin/qosmgr:system/bin/qosmgr \
+    vendor/zte/n919/proprietary/system/bin/qrngd:system/bin/qrngd \
+    vendor/zte/n919/proprietary/system/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/zte/n919/proprietary/system/bin/rild:system/bin/rild \
+    vendor/zte/n919/proprietary/system/bin/thermald:system/bin/thermald \
+    vendor/zte/n919/proprietary/system/lib/hw/camera.msm7627a.so:system/lib/hw/camera.msm7627a.so \
+    vendor/zte/n919/proprietary/system/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so \
+    vendor/zte/n919/proprietary/system/lib/hw/sensors.qcom.so:system/lib/hw/sensors.qcom.so \
+    vendor/zte/n919/proprietary/system/lib/libauth.so:system/lib/libauth.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_mt9e013_default_video.so:system/lib/libchromatix_mt9e013_default_video.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_mt9e013_preview.so:system/lib/libchromatix_mt9e013_preview.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_mt9e013_video_hfr.so:system/lib/libchromatix_mt9e013_video_hfr.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_ov2720_hfr.so:system/lib/libchromatix_ov2720_hfr.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_ov2720_zsl.so:system/lib/libchromatix_ov2720_zsl.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_ov5647_preview.so:system/lib/libchromatix_ov5647_preview.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_ov5647_video_hfr.so:system/lib/libchromatix_ov5647_video_hfr.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
+    vendor/zte/n919/proprietary/system/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
+    vendor/zte/n919/proprietary/system/lib/libcm.so:system/lib/libcm.so \
+    vendor/zte/n919/proprietary/system/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
+    vendor/zte/n919/proprietary/system/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/zte/n919/proprietary/system/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
+    vendor/zte/n919/proprietary/system/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
+    vendor/zte/n919/proprietary/system/lib/libcommondefs.so:system/lib/libcommondefs.so \
+    vendor/zte/n919/proprietary/system/lib/libcommon_time_client.so:system/lib/libcommon_time_client.so \
+    vendor/zte/n919/proprietary/system/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/zte/n919/proprietary/system/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+    vendor/zte/n919/proprietary/system/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
+    vendor/zte/n919/proprietary/system/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
+    vendor/zte/n919/proprietary/system/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+    vendor/zte/n919/proprietary/system/lib/libdsm.so:system/lib/libdsm.so \
+    vendor/zte/n919/proprietary/system/lib/libdsprofile.so:system/lib/libdsprofile.so \
+    vendor/zte/n919/proprietary/system/lib/libdss.so:system/lib/libdss.so \
+    vendor/zte/n919/proprietary/system/lib/libdsucsd.so:system/lib/libdsucsd.so \
+    vendor/zte/n919/proprietary/system/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/zte/n919/proprietary/system/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/zte/n919/proprietary/system/lib/libgetzip.so:system/lib/libgetzip.so \
+    vendor/zte/n919/proprietary/system/lib/libidl.so:system/lib/libidl.so \
+    vendor/zte/n919/proprietary/system/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/zte/n919/proprietary/system/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/zte/n919/proprietary/system/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+    vendor/zte/n919/proprietary/system/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+    vendor/zte/n919/proprietary/system/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/zte/n919/proprietary/system/lib/libloc_ext.so:system/lib/libloc_ext.so \
+    vendor/zte/n919/proprietary/system/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
+    vendor/zte/n919/proprietary/system/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/zte/n919/proprietary/system/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+    vendor/zte/n919/proprietary/system/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
+    vendor/zte/n919/proprietary/system/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    vendor/zte/n919/proprietary/system/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/zte/n919/proprietary/system/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+    vendor/zte/n919/proprietary/system/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/zte/n919/proprietary/system/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+    vendor/zte/n919/proprietary/system/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/zte/n919/proprietary/system/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/zte/n919/proprietary/system/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
+    vendor/zte/n919/proprietary/system/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/zte/n919/proprietary/system/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/zte/n919/proprietary/system/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/zte/n919/proprietary/system/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/zte/n919/proprietary/system/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/zte/n919/proprietary/system/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/zte/n919/proprietary/system/lib/libmvs.so:system/lib/libmvs.so \
+    vendor/zte/n919/proprietary/system/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/zte/n919/proprietary/system/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
+    vendor/zte/n919/proprietary/system/lib/libnl_2.so:system/lib/libnl_2.so \
+    vendor/zte/n919/proprietary/system/lib/libnv.so:system/lib/libnv.so \
+    vendor/zte/n919/proprietary/system/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/zte/n919/proprietary/system/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxCore.so:system/lib/libOmxCore.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxIttiamVdec.so:system/lib/libOmxIttiamVdec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
+    vendor/zte/n919/proprietary/system/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
+    vendor/zte/n919/proprietary/system/lib/liboncrpc.so:system/lib/liboncrpc.so \
+    vendor/zte/n919/proprietary/system/lib/libpbmlib.so:system/lib/libpbmlib.so \
+    vendor/zte/n919/proprietary/system/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+    vendor/zte/n919/proprietary/system/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/zte/n919/proprietary/system/lib/libqdi.so:system/lib/libqdi.so \
+    vendor/zte/n919/proprietary/system/lib/libqdp.so:system/lib/libqdp.so \
+    vendor/zte/n919/proprietary/system/lib/libqmi.so:system/lib/libqmi.so \
+    vendor/zte/n919/proprietary/system/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+    vendor/zte/n919/proprietary/system/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
+    vendor/zte/n919/proprietary/system/lib/libqmiservices.so:system/lib/libqmiservices.so \
+    vendor/zte/n919/proprietary/system/lib/libqueue.so:system/lib/libqueue.so \
+    vendor/zte/n919/proprietary/system/lib/libqmi.so:system/lib/libqmi.so \
+    vendor/zte/n919/proprietary/system/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/zte/n919/proprietary/system/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+    vendor/zte/n919/proprietary/system/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/zte/n919/proprietary/system/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    vendor/zte/n919/proprietary/system/lib/libril.so:system/lib/libril.so \
+    vendor/zte/n919/proprietary/system/lib/libwms.so:system/lib/libwms.so \
+    vendor/zte/n919/proprietary/system/lib/libwmsts.so:system/lib/libwmsts.so \
+    vendor/zte/n919/proprietary/system/lib/libadc.so:system/lib/libadc.so \
+    vendor/zte/n919/proprietary/system/lib/libaudioeq.so:system/lib/libaudioeq.so \
+    vendor/zte/n919/proprietary/system/lib/libgps.utils.so:system/lib/libgps.utils.so \
